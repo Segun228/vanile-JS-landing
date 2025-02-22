@@ -225,12 +225,13 @@ body {
 
 .contacts-button:hover, .contacts-button:focus{
     box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.32);
-    transition: ease-in-out 0.18s;
+    transition: all 0.3s ease-in-out ;
+    
 }
 
 .contacts-button:active{
     box-shadow: none;
-    transition: ease-in-out 0.18s;
+    transition: all 0.3s ease-in-out;
     background-color: #323232;
     position: relative;
     top: 1px;
