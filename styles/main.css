@@ -1,7 +1,12 @@
 @import "./reset.css";
+*{
+    scroll-behavior: smooth;
+  }
+  
 body {
     font-family: 'Poppins', 'Roboto';
     color: black;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -242,4 +247,9 @@ body {
     font-size: 14px;
     color:#828282;
 
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
 }
